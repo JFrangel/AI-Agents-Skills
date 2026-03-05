@@ -36,7 +36,7 @@ Cuando el usuario pregunte "¿qué puedes hacer?" o tenga una necesidad vaga, su
 
 ### 5. Para Diseño Visual y UI
 - **Skill**: `design-system`
-- **Uso**: "Tokens de diseño", "componentes UI", "Tailwind".
+- **Uso**: "Tokens de diseño", "componentes UI", "Tailwind", "d", "design", "sistema diseño".
 - **Qué hace**: Provee sistema de diseño, animaciones y componentes base.
 
 ## Activadores de Skills
