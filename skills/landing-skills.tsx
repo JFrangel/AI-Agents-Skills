@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const skills = [
@@ -80,6 +80,21 @@ const skills = [
 ];
 
 export default function LandingSkills() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1200);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <main className="flex items-center justify-center h-screen">
+        <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-primary"></div>
+        <span className="ml-4 text-lg font-semibold">Cargando catálogo de skills...</span>
+      </main>
+    );
+  }
+
   return (
     <main className="max-w-3xl mx-auto py-12 px-4">
       <h1 className="text-3xl font-bold mb-8">Catálogo de Skills</h1>

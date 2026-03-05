@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: hsl(187 76% 45%);
+  --color-primary-foreground: hsl(210 18% 98%);
+  --radius: 8px;
+}
