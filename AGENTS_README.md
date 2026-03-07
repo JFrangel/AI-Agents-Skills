@@ -1,53 +1,57 @@
-# Manual de Agentes y Skills
+# Manual de Agentes y Skills (Catálogo Completo)
 
-Este repositorio cuenta con un sistema de agentes inteligentes activados por skills. Aquí tienes la guía de uso para cada uno:
+Este repositorio cuenta con un ecosistema de **12 agentes inteligentes** activados por skills. Aquí tienes la guía de uso de todas las herramientas disponibles:
 
-## 1. AI Founder (`ai-founder`)
-**Enfoque:** Negocio + Estrategia.
-**Activación:**
-- "Quiero crear una startup"
-- "Pitch deck"
-- "Modelo de negocio"
+## 🤖 Categoría: Inteligencia Artificial (AI)
 
-**¿Para qué sirve?**
-Transforma una idea vaga o concreta en una empresa estructurada. Diseña modelos de negocio, define la propuesta de valor, estructura presentaciones para inversores y establece roadmaps estratégicos de crecimiento.
+### 1. AI CTO (`ai-cto`)
+- **Foco**: Arquitectura de software, stack tecnológico y MVPs.
+- **Activación**: "Stack tecnológico", "MVP técnico", "Arquitectura para hackaton".
 
-## 2. AI CTO (`ai-cto`)
-**Enfoque:** Ejecución técnica rápida.
-**Activación:**
-- "Arquitectura para hackaton"
-- "Stack tecnológico"
-- "MVP técnico"
+### 2. AI Founder (`ai-founder`)
+- **Foco**: Estrategia de negocio, monetización y pitch decks.
+- **Activación**: "Quiero crear una startup", "Modelo de negocio", "Pitch deck".
 
-**¿Para qué sirve?**
-Define la tecnología necesaria para construir el producto de forma rápida y escalable. Elige bases de datos, frameworks (Next.js, React, etc.) y diseña la arquitectura de sistemas enfocada en el MVP (Producto Mínimo Viable).
+### 3. Arquitectura de Agentes (`arquitectura-agentes`)
+- **Foco**: Diseño de Agent Harness, SDD y optimización de contexto.
+- **Activación**: "Design agent harness", "/arquitectura-agentes", "Optimize context window".
 
-## 3. Idea to Startup (`idea-to-startup`)
-**Enfoque:** Flowcharts y lógica pura (agnóstico de tecnología).
-**Activación:**
-- "Idea abstracta"
-- "Pipeline conceptual"
-- "Diseño agnóstico"
+### 4. Chunk Scoring (`chunk-scoring`)
+- **Foco**: RAG, embeddings, chunking semántico y bases vectoriales.
+- **Activación**: "Optimize RAG pipeline", "Semantic chunking", "/chunk-scoring".
 
-**¿Para qué sirve?**
-Convierte pensamientos abstractos en flujos de trabajo lógicos y diagramas de flujo sin casarse con ninguna tecnología específica. Ideal para la fase de ideación pura antes de decidir el stack.
+## 🛠️ Categoría: Desarrollo Core
 
-## 4. Plan de Desarrollo (`plan`)
-**Enfoque:** Calidad de código y modularidad.
-**Activación:**
-- "Refactoriza este código"
-- "Buenas prácticas Next.js"
-- "Analiza impacto"
+### 5. Plan de Desarrollo (`plan`)
+- **Foco**: Refactorización profunda, Clean Code e impacto de cambios.
+- **Activación**: "Refactoriza este código", "Análisis de impacto", "/plan".
 
-**¿Para qué sirve?**
-Actúa como un Senior Developer que revisa tu código, propone refactorizaciones modulares, analiza el impacto de cambios en el sistema y asegura que sigas las mejores prácticas de ingeniería de software.
+### 6. Idea to Startup (`idea-to-startup`)
+- **Foco**: Flowcharts y lógica agnóstica de tecnología.
+- **Activación**: "Idea abstracta", "Pipeline conceptual", "Diseño agnóstico".
 
-## 5. Buscador de Skills (`find-skills`)
-**Enfoque:** Ayuda y descubrimiento de skills.
-**Activación:**
-- "Qué puedes hacer"
-- "Ayuda"
-- "Tengo una idea pero no sé por dónde empezar"
+### 7. Buscador de Skills (`find-skills`)
+- **Foco**: Router inteligente para encontrar la herramienta correcta.
+- **Activación**: "Ayuda", "Qué puedes hacer", "/find-skills".
 
-**¿Para qué sirve?**
-Si no sabes qué agente usar, invoca este skill y te guiará hacia la herramienta correcta según tu necesidad actual, funcionando como un router inteligente.
+## 🧱 Categoría: Especialidades Técnicas
+
+### 8. CRM & Funnels (`crm`)
+- **Foco**: Modelado de datos comerciales y automatización de ventas.
+- **Activación**: "Design sales funnel", "Lead scoring", "/crm".
+
+### 9. Design System (`design-system`)
+- **Foco**: UI/UX, tokens de diseño y componentes accesibles.
+- **Activación**: "Tokens de diseño", "Componente UI", "/design-system".
+
+### 10. Security Guard (`security-guard`)
+- **Foco**: Auditoría de seguridad, OWASP y protección de APIs.
+- **Activación**: "Security audit", "Check vulnerabilities", "/security-guard".
+
+### 11. Documentation Expert (`documentation`)
+- **Foco**: Redacción de ADRs, Manuales y CLAUDE.md.
+- **Activación**: "Write documentation", "Draft ADR", "/documentation".
+
+### 12. Best Practices & QA (`best-practices`)
+- **Foco**: Pruebas unitarias, auditoría de estándares y calidad.
+- **Activación**: "Test this component", "Validate standards", "/best-practices".

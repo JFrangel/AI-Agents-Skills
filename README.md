@@ -12,37 +12,15 @@ Son instrucciones avanzadas (System Prompts) que activan roles específicos en t
 2. Copia la carpeta `skills` dentro de la configuración de tu agente de IA local (por ejemplo `~/.agents/skills` o `.github/skills` en tus proyectos).
 3. Reinicia tu editor o agente.
 
-## Catálogo de Agentes
+## Catálogo de Agentes (12 Skills Disponibles)
 
-### 1. 🚀 AI Founder (`ai-founder`)
-- **Rol:** Fundador y Estratega de Negocio.
-- **Uso:** Transforma ideas en startups completas. Genera modelos de negocio, pitch decks y roadmaps estratégicos.
-- **Activación:** "Quiero crear una startup", "Pitch deck", "Modelo de negocio".
+El sistema cuenta con **12 agentes especializados** organizados por categorías técnicas:
 
-### 2. ⚡ AI CTO (`ai-cto`)
-- **Rol:** Chief Technology Officer.
-- **Uso:** Define arquitecturas técnicas, stacks tecnológicos y planes para MVPs rápidos.
-- **Activación:** "Arquitectura para hackaton", "Stack tecnológico", "MVP técnico".
+1.  **AI (Inteligencia Artificial)**: `ai-cto`, `ai-founder`, `arquitectura-agentes`, `chunk-scoring`.
+2.  **Core (Desarrollo)**: `plan`, `idea-to-startup`, `find-skills`.
+3.  **Especialidades**: `crm`, `design-system`, `security-guard`, `documentation`, `best-practices`.
 
-### 3. 🧠 Idea to Startup (`idea-to-startup`)
-- **Rol:** Arquitecto Conceptual (Agnóstico).
-- **Uso:** Crea pipelines y flujos lógicos para ideas abstractas sin atarse a tecnologías específicas.
-- **Activación:** "Idea abstracta", "Pipeline conceptual", "Diseño agnóstico".
-
-### 4. 🛠️ Plan de Desarrollo (`plan`)
-- **Rol:** Senior Software Engineer / Arquitecto.
-- **Uso:** Refactorización, análisis de impacto, estructuración modular de código y mejora de calidad.
-- **Activación:** "Refactoriza este código", "Buenas prácticas", "Analiza impacto".
-
-### 5. 🎨 Design System (`design-system`)
-- **Rol:** Diseñador UI/UX e Ingeniero Frontend.
-- **Uso:** Genera componentes, tokens de diseño y sistemas visuales coherentes (basado en Tailwind/Shadcn).
-- **Activación:** "Tokens de diseño", "Componente UI", "Estilos".
-
-### 6. 🔍 Buscador (`find-skills`)
-- **Rol:** Asistente de Ayuda.
-- **Uso:** Te ayuda a encontrar qué skill utilizar para tu problema actual.
-- **Activación:** "Ayuda", "Qué puedes hacer".
+Para ver los comandos de activación (`/slash-commands`) y detalles profundos, consulta el [AGENTS_README.md](./AGENTS_README.md).
 
 ---
 **Nota:** Para detalles profundos de cada skill, consulta el archivo [AGENTS_README.md](./AGENTS_README.md).

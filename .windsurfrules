@@ -1,0 +1,25 @@
+# Reglas Globales del Repositorio (NeuralForge Skills)
+
+Este repositorio contiene múltiples "Skills" (Agentes especializados) en la carpeta `skills/`, organizadas por categoría:
+
+- `skills/ai/` → ai-cto, ai-founder, arquitectura-agentes, chunk-scoring
+- `skills/backend/` → crm
+- `skills/core/` → find-skills, idea-to-startup, plan
+- `skills/devops/` → security-guard
+- `skills/documentation/` → documentation
+- `skills/frontend/` → design-system
+- `skills/testing/` → best-practices
+
+## 🔴 INSTRUCCIÓN CRÍTICA DE AUTO-ACTIVACIÓN Y COLABORACIÓN:
+1. **Analiza la petición**: Comprueba si los requerimientos coinciden con los `keywords` de alguna skill en `skills/` (ej. `plan`, `design-system`, `ai-cto`, `security-guard`, etc.).
+2. **Auto-Activación**: Si coincide, ABANDONA tu rol genérico, lee el `SKILL.md` y `memory.md` correspondiente, y adopta sus límites.
+3. **Múltiples Skills (Orquestación)**: Si el usuario pide algo complejo o combinó varias skills en su prompt (ej. `/plan /design-system`), DEBES asumir el rol del orquestador principal, pero **obligatoriamente** debes leer y aplicar las reglas de TODAS las skills solicitadas en cadena.
+4. **Validación de Seguridad**: Si el cambio implica lógica de negocio crítica, bases de datos o despliegue, debes consultar las reglas de la skill `security-guard` ANTES de finalizar.
+5. **Ejemplos (Contexto adiccional)**: Si la skill activada tiene una carpeta `examples/` en su directorio, revísala para ver cómo espera el usuario que se hagan las cosas.
+6. **Auto-Generación de Tareas (Agent Harness)**: Antes de escribir código o modificar muchos archivos, SIEMPRE debes generar y presentar un checklist de pasos a seguir (`task.md` o lista markdown en el chat) cruzando los requerimientos de la skill activada. Esto hace que el desarrollo sea predecible y documentado.
+7. **Análisis de Impacto (Zero Broken Code)**: Para las skills de desarrollo que cambien código, SIEMPRE revisa QUÉ cambias, POR QUÉ lo cambias, QUÉ PARTES afecta y CÓMO lo afecta. Reestructura el código adyacente si es necesario para garantizar que se integre completamente; NO DEJES CÓDIGO ROTO BAJO NINGUNA CIRCUNSTANCIA.
+
+## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD
+Para demostrar qué skills estás usando combinadas, tu primera línea debe ser:
+`⚙️🎨 **[SKILLS ACTIVADAS: PLAN + DESIGN-SYSTEM]** — *Modo de ejecución estricta y diseño...*`
+(Combina los emojis y nombres de las skills).
