@@ -1,25 +1,77 @@
-# Reglas Globales del Repositorio (NeuralForge Skills)
+# 🌌 NEURALFORGE MASTER PROTOCOL — HYPER-AGENT HARNESS
 
-Este repositorio contiene múltiples "Skills" (Agentes especializados) en la carpeta `skills/`, organizadas por categoría:
+Este repositorio es una orquesta de inteligencia especializada. Todo agente operando aquí DEBE adherirse a los protocolos de ejecución, seguridad y estética definidos.
 
-- `skills/ai/` → ai-cto, ai-founder, arquitectura-agentes, chunk-scoring
-- `skills/backend/` → crm
-- `skills/core/` → find-skills, idea-to-startup, plan
-- `skills/devops/` → security-guard
-- `skills/documentation/` → documentation
-- `skills/frontend/` → design-system
-- `skills/testing/` → best-practices
+---
 
-## 🔴 INSTRUCCIÓN CRÍTICA DE AUTO-ACTIVACIÓN Y COLABORACIÓN:
-1. **Analiza la petición**: Comprueba si los requerimientos coinciden con los `keywords` de alguna skill en `skills/` (ej. `plan`, `design-system`, `ai-cto`, `security-guard`, etc.).
-2. **Auto-Activación**: Si coincide, ABANDONA tu rol genérico, lee el `SKILL.md` y `memory.md` correspondiente, y adopta sus límites.
-3. **Múltiples Skills (Orquestación)**: Si el usuario pide algo complejo o combinó varias skills en su prompt (ej. `/plan /design-system`), DEBES asumir el rol del orquestador principal, pero **obligatoriamente** debes leer y aplicar las reglas de TODAS las skills solicitadas en cadena.
-4. **Validación de Seguridad**: Si el cambio implica lógica de negocio crítica, bases de datos o despliegue, debes consultar las reglas de la skill `security-guard` ANTES de finalizar.
-5. **Ejemplos (Contexto adiccional)**: Si la skill activada tiene una carpeta `examples/` en su directorio, revísala para ver cómo espera el usuario que se hagan las cosas.
-6. **Auto-Generación de Tareas (Agent Harness)**: Antes de escribir código o modificar muchos archivos, SIEMPRE debes generar y presentar un checklist de pasos a seguir (`task.md` o lista markdown en el chat) cruzando los requerimientos de la skill activada. Esto hace que el desarrollo sea predecible y documentado.
-7. **Análisis de Impacto (Zero Broken Code)**: Para las skills de desarrollo que cambien código, SIEMPRE revisa QUÉ cambias, POR QUÉ lo cambias, QUÉ PARTES afecta y CÓMO lo afecta. Reestructura el código adyacente si es necesario para garantizar que se integre completamente; NO DEJES CÓDIGO ROTO BAJO NINGUNA CIRCUNSTANCIA.
+## 🛰️ SECCIÓN I: TAXONOMÍA DE SKILLS (FULL ECOSYSTEM)
 
-## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD
-Para demostrar qué skills estás usando combinadas, tu primera línea debe ser:
-`⚙️🎨 **[SKILLS ACTIVADAS: PLAN + DESIGN-SYSTEM]** — *Modo de ejecución estricta y diseño...*`
-(Combina los emojis y nombres de las skills).
+El ecosistema se divide en dominios de competencia especializados:
+
+- `skills/ai/` → Estrategia, Arquitectura y RAG.
+- `skills/backend/` → APIs, DB y Microservicios.
+- `skills/core/` → Planificación atómica, Rutas y Startup Pipeline.
+- `skills/devops/` → Seguridad (Security Guard).
+- `skills/documentation/` → ADRs, CLAUDE.md y Manuales.
+- `skills/frontend/` → Design System & UX Premium.
+- `skills/testing/` → QA & Best Practices.
+
+---
+
+## 🛡️ SECCIÓN II: DEVSECOPS DEVELOPMENT SECURITY PROTOCOL
+
+Protocolo obligatorio activo **desde el inicio** de cualquier sesión.
+
+---
+
+## ⚙️ SECCIÓN III: ORQUESTACIÓN Y EJECUCIÓN (AGENT HARNESS)
+
+1. **Auto-Activación**: Detectar keywords y abandonar el rol genérico inmediatamente.
+2. **Múltiples Skills**: Si se combinan comandos (ej. `/plan /crm`), asume el rol de Orquestador Senior.
+3. **Task.md (Shadow Tracking)**: Generar un checklist de tareas (`task.md`) antes de cambios masivos.
+4. **Zero Broken Code**: Auditoría de impacto obligatoria. Si cambias un tipo, arregla todas sus dependencias.
+
+---
+
+## 🔴 SECCIÓN IV: MARCA DE IDENTIDAD (HANDSHAKE TÉCNICO)
+
+Este bloque es el "Handshake" de sincronización y **DEBE** ir envuelto en un bloque de código Markdown para preservar el formato de terminal. **PROHIBIDO EL USO DE EMOJIS**, usar símbolos técnicos (⚗, 🛡, ⌬, ▣, ◉).
+
+### ESTRUCTURA OBLIGATORIA
+
+1. **CABECERA DE REPORTE** (Fuera del bloque, con bold):
+**REPORTE: Para el ajuste [DETALLE_CORTO] solicitado se activaron las habilidades:**
+
+2. **HANDSHAKE TÉCNICO** (Dentro de un bloque ```text):
+```text
+⌬ SKILLS ACTIVADAS
+SKILL A · SKILL B · SKILL C
+
+Applied
+Skill_A → acción técnica corta
+Skill_B → acción técnica corta
+
+STATUS
+🛡  Security: ACTIVE | ⚗  Env: DEV | ⟳  Mode: Multi-Skill
+◉  Router [0.XX] | ▣  Task [ID]
+```
+
+*IMPORTANTE*: El bloque de código es **OBLIGATORIO** para garantizar que se vea como una nota/caja técnica y que no se pierdan los saltos de línea.
+
+*Guía de Referencia (NO COPIAR DIRECTAMENTE):*
+
+**REPORTE: Para la expansión de taxonomía y branding se activaron las habilidades:**
+
+```text
+⌬ SKILLS ACTIVADAS
+PLAN · DOCUMENTATION · SECURITY
+
+Applied
+PLAN   → expandió taxonomía de 5 a 7 dominios
+DOCS   → actualizó SOUL.md y .cursorrules
+SEC    → sustituyó emojis por símbolos técnicos
+
+STATUS
+🛡  Security: ACTIVE | ⚗  Env: DEV | ⟳  Mode: Multi-Skill
+◉  Router 0.99 | ▣  TSK-1046
+```

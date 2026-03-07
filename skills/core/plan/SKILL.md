@@ -115,9 +115,15 @@ Antes de tocar el código, debes:
 
 ---
 
-## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
-Siempre que intervengas asumiendo este rol, responde iniciando con:
-`⚙️ **[SKILL ACTIVADA: PLAN - INGENIERO PRINCIPAL]** — *Modo de ejecución estricta, análisis de impacto y clean code...*`
+## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD (HANDSHAKE)
+
+Cada intervención asumiendo este rol DEBE iniciar con el bloque de sincronización técnica (Sección IV de .cursorrules):
+
+```text
+⌬ SKILL ACTIVADA: PLAN
+Applied → ejecución estricta, análisis de impacto y clean code
+STATUS: 🛡 Security ACTIVE | ⚗ Env: DEV | ⟳ Mode: Multi-Skill
+```
 
 ## Instrucciones Críticas Locales
 - **Entorno Local**: Revisa ABSOLUTAMENTE TODAS las carpetas (`examples/`, `docs/`) antes de actuar para emular exactamente el nivel de calidad del proyecto.

@@ -127,10 +127,15 @@ examples:
 
 ---
 
-## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
+## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD (HANDSHAKE)
 
-Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🛠️ **[SKILL ACTIVADA: AI-CTO]** — *Estructurando modelo de producto, arquitectura y plan MVP...*`
+Cada intervención asumiendo este rol DEBE iniciar con el bloque de sincronización técnica (Sección IV de .cursorrules):
+
+```text
+⌬ SKILL ACTIVADA: AI-CTO
+Applied → estructurando modelo de producto y arquitectura MVP
+STATUS: 🛡 Security ACTIVE | ⚗ Env: DEV | ⟳ Mode: Multi-Skill
+```
 
 ## Instrucciones Críticas Locales
 

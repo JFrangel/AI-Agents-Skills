@@ -47,15 +47,20 @@ capabilities:
   - error handling standardization
   - accessibility checking
   - project structure compliance
+  - **Zero-Build-Error policy enforcement**
+  - **Strict Lint Auditing (No unused imports, No "any")**
 
 workflow:
   step1:
     name: context_scanning
     description: Escanear todas las carpetas locales y documentación (ej. examples/, docs/) para entender el estándar del proyecto.
   step2:
+    name: build_integrity_check
+    description: Verificar que no existan errores de build, imports huérfanos o archivos mal ubicados que rompan el sistema.
+  step3:
     name: structural_validation
     description: Verificar si la arquitectura respeta las reglas definidas (ej. separación de UI y Lógica).
-  step3:
+  step4:
     name: logic_and_error_handling_audit
     description: Revisar que el código implemente try-catch corporativos y tipado estricto sin "any".
   step4:

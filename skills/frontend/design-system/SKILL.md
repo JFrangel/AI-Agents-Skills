@@ -154,7 +154,7 @@ Inspirado en **plataformas tech modernas** como TensorTonic, el diseño prioriza
 ```tsx
 <div
   className="absolute inset-0 bg-[linear-gradient(...)] 
-     bg-[size:64px_64px] 
+     bg-size-[64px_64px] 
      [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"
 />
 ```

@@ -3,3 +3,104 @@
 [00:00:26.568] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:01:09.759] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:01:16.006] Server  LOG     ✓ Compiled in 611ms
+[00:10:20.309] Server  LOG     ✓ Compiled in 146ms
+[00:10:31.387] Server  LOG     ✓ Compiled in 662ms
+[00:12:18.082] Server  LOG     ✓ Compiled in 46ms
+[00:13:23.155] Server  LOG     ✓ Compiled in 79ms
+[00:14:54.509] Server  LOG     ✓ Compiled in 63ms
+[00:20:05.586] Server  LOG     ✓ Compiled in 58ms
+[00:28:25.467] Server  LOG     ✓ Compiled in 68ms
+[00:28:27.026] Server  LOG     ✓ Compiled in 87ms
+[00:31:39.729] Server  LOG     ✓ Compiled in 78ms
+[00:47:59.353] Server  LOG     ✓ Compiled in 69ms
+[00:48:10.424] Server  LOG     ✓ Compiled in 126ms
+[00:48:12.389] Server  LOG     ✓ Compiled in 85ms
+[00:57:55.787] Server  LOG     ✓ Compiled in 70ms
+[01:02:54.832] Server  LOG     ✓ Compiled in 64ms
+[01:07:15.916] Server  LOG     ✓ Compiled in 66ms
+[01:07:16.031] Browser ERROR   ./src/app/page.tsx:378:59
+Parsing ecmascript source code failed
+  376 |                       <div key={s} className="flex items-center space-x-4 text-[12px]">
+  377 |                         <span className="text-slate-300 font-bold min-w-[90px]">{s.toUpperCase()}</span>
+> 378 |                         <span className="text-slate-600">-></span>
+      |                                                           ^
+  379 |                         <span className="text-slate-400">Auditando protocolo de {skills.find(sk => sk.name === s)?.title.toLowerCase()}</span>
+  380 |                       </div>
+  381 |                     ))}
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[01:07:16.031] Browser ERROR   ./src/app/page.tsx:432:10
+Parsing ecmascript source code failed
+  430 |             </button>
+  431 |           </div>
+> 432 |         </div>
+      |          ^^^^^
+  433 |       )}
+  434 |
+  435 |       {/* Command Palette Modal */}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[01:07:16.780] Browser ERROR   ./src/app/page.tsx:378:59
+Parsing ecmascript source code failed
+  376 |                       <div key={s} className="flex items-center space-x-4 text-[12px]">
+  377 |                         <span className="text-slate-300 font-bold min-w-[90px]">{s.toUpperCase()}</span>
+> 378 |                         <span className="text-slate-600">-></span>
+      |                                                           ^
+  379 |                         <span className="text-slate-400">Auditando protocolo de {skills.find(sk => sk.name === s)?.title.toLowerCase()}</span>
+  380 |                       </div>
+  381 |                     ))}
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[01:07:16.780] Browser ERROR   ./src/app/page.tsx:432:10
+Parsing ecmascript source code failed
+  430 |             </button>
+  431 |           </div>
+> 432 |         </div>
+      |          ^^^^^
+  433 |       )}
+  434 |
+  435 |       {/* Command Palette Modal */}
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[01:07:46.265] Server  LOG     ✓ Compiled in 44ms
+[01:07:56.992] Server  LOG     ✓ Compiled in 47ms
+[01:09:55.387] Server  LOG     ✓ Compiled in 39ms
+[01:14:36.246] Server  LOG     ✓ Compiled in 46ms
+[01:14:38.308] Server  LOG     ✓ Compiled in 63ms
+[01:15:03.561] Server  LOG     ✓ Compiled in 53ms
