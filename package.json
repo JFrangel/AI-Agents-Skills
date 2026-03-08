@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "orchestrator": "node scripts/skill-orchestrator.js"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",

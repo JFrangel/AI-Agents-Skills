@@ -1,0 +1,125 @@
+[
+  {
+    "name": "ai-cto",
+    "triggers": [
+      "design system architecture",
+      "define tech stack",
+      "plan technical mvp",
+      "I have an idea for an app",
+      "/ai-cto"
+    ]
+  },
+  {
+    "name": "ai-founder",
+    "triggers": [
+      "I have an idea for a startup",
+      "write a pitch deck",
+      "design a business model",
+      "monetization strategy",
+      "/ai-founder"
+    ]
+  },
+  {
+    "name": "arquitectura-agentes",
+    "triggers": [
+      "design agent harness",
+      "scale ai agents",
+      "optimize context window",
+      "implement spec driven development",
+      "configure agent identities",
+      "/arquitectura-agentes"
+    ]
+  },
+  {
+    "name": "chunk-scoring",
+    "triggers": [
+      "improve search accuracy",
+      "optimize rag pipeline",
+      "design chunking strategy",
+      "configure vector database",
+      "/chunk-scoring"
+    ]
+  },
+  {
+    "name": "crm",
+    "triggers": [
+      "design sales funnel",
+      "create crm data model",
+      "automate lead scoring",
+      "build b2b pipeline",
+      "/crm"
+    ]
+  },
+  {
+    "name": "find-skills",
+    "triggers": [
+      "what can you do",
+      "help me with my project",
+      "help",
+      "router",
+      "/find-skills"
+    ]
+  },
+  {
+    "name": "idea-to-startup",
+    "triggers": [
+      "map this idea",
+      "brain dump",
+      "conceptual pipeline",
+      "break down the problem",
+      "/idea-to-startup"
+    ]
+  },
+  {
+    "name": "plan",
+    "triggers": [
+      "refactor code",
+      "clean code",
+      "review architecture",
+      "improve codebase",
+      "/plan"
+    ]
+  },
+  {
+    "name": "security-guard",
+    "triggers": [
+      "secure the application",
+      "check vulnerabilities",
+      "security audit",
+      "review code security",
+      "protect api",
+      "/security-guard"
+    ]
+  },
+  {
+    "name": "documentation",
+    "triggers": [
+      "write documentation",
+      "generate readme",
+      "context engineering",
+      "draft adr",
+      "/documentation"
+    ]
+  },
+  {
+    "name": "design-system",
+    "triggers": [
+      "design ui",
+      "implement tailwind",
+      "style this component",
+      "add glassmorphism",
+      "/design-system"
+    ]
+  },
+  {
+    "name": "best-practices",
+    "triggers": [
+      "code review",
+      "test this component",
+      "check best practices",
+      "validate standards",
+      "audit quality",
+      "/best-practices"
+    ]
+  }
+]
