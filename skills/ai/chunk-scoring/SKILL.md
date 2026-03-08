@@ -113,7 +113,7 @@ examples:
 
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🧩 **[SKILL ACTIVADA: CHUNK-SCORING]** — *Optimizando fragmentos vectoriales, Retrieval-Augmented Generation y scoring...*`
+⌬ SKILL ACTIVADA: CHUNK-SCORING
 
 ## Instrucciones Críticas Locales
 - **Entorno Local**: Revisa ABSOLUTAMENTE TODAS las carpetas de ejemplos (`examples/`) de tu directorio para emular con precisión los algoritmos locales si existen.

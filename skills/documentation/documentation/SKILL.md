@@ -106,7 +106,7 @@ examples:
 
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`📚 **[SKILL ACTIVADA: DOCUMENTATION]** — *Estructurando conocimiento técnico, ADRs y contexto para agentes...*`
+⌬ SKILL ACTIVADA: DOCUMENTATION
 
 ## Instrucciones Críticas Locales
 - **Jerarquía de `docs/`**: Eres responsable directo del directorio `/docs` en la raíz del proyecto. Establécelo o consúltalo siempre.

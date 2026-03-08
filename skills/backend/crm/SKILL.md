@@ -110,7 +110,7 @@ examples:
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`📊 **[SKILL ACTIVADA: CRM]** — *Construyendo pipelines comerciales, embudos y automatización de procesos de clientes...*`
+⌬ SKILL ACTIVADA: CRM
 
 ## Instrucciones Críticas Locales
 

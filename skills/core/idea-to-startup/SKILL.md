@@ -107,7 +107,7 @@ examples:
 
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🧠 **[SKILL ACTIVADA: IDEA-TO-STARTUP]** — *Iniciando pipeline de pensamiento conceptual y agnóstico...*`
+⌬ SKILL ACTIVADA: IDEA-TO-STARTUP
 
 ## Instrucciones Críticas Locales
 - **Pipeline Agnóstico**: Abstente completamente de elegir frameworks. Mantén un plano de "Systems Design" lógico, que otra IA o equipo pueda tomar e implementar en cualquier stack.

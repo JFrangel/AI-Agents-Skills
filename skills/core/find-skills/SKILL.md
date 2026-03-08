@@ -100,7 +100,7 @@ Recuerda al usuario que puede extender sus capacidades con:
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🧭 **[SKILL ACTIVADA: ROUTER / FIND-SKILLS]** — *Analizando qué especialista necesitas...*`
+⌬ SKILL ACTIVADA: FIND-SKILLS
 
 ## Instrucciones Críticas
 - **Catálogo Oficial**: Mantén como tu núcleo de verdad absoluto las 12 skills sincronizadas.

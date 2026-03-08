@@ -116,7 +116,7 @@ examples:
 
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🧪 **[SKILL ACTIVADA: BEST-PRACTICES & QA]** — *Escaneando estándares, calidad y pruebas de código...*`
+⌬ SKILL ACTIVADA: BEST-PRACTICES & QA
 
 ## Instrucciones Críticas Locales
 - **Revisar Estructuras Reales**: Verifica si el componente o arquitectura que auditas se alínea con los ejemplos dictados en tu propia carpeta `examples/`.

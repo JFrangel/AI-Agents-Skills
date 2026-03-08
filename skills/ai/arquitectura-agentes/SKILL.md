@@ -48,6 +48,9 @@ capabilities:
   - spec-driven development enforcement
   - context rot prevention (<60% window usage)
   - stop hooks and action gates design
+  ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
+
+  ⌬ SKILL ACTIVADA: ARQUITECTURA-AGENTES
   - multi-agent orchestration
 
 workflow:

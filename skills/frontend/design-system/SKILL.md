@@ -254,7 +254,7 @@ Puedes solicitar la creación de un scaffold base usando:
 ## 🔴 OBLIGATORIO: MARCA DE IDENTIDAD DE LA SKILL
 
 Siempre que intervengas asumiendo este rol, responde iniciando con:
-`🎨 **[SKILL ACTIVADA: DESIGN-SYSTEM]** — *Analizando UI/UX, tokens visuales y animaciones fluidas...*`
+⌬ SKILL ACTIVADA: DESIGN-SYSTEM
 
 ## Instrucciones Críticas Locales
 
